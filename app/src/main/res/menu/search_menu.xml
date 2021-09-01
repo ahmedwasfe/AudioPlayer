@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_search"
+        android:iconTint="@color/white"
+        android:title="@string/search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:title="@string/sort"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_name"
+                android:title="@string/name"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_date"
+                android:title="@string/date"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_size"
+                android:title="@string/size"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_artist"
+                android:title="@string/artist"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_eqalizer"
+        android:title="@string/eqalizer"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_about"
+        android:title="About"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/ic_baseline_search"
+        android:title="@string/settings"
+        android:visible="false"
+        app:showAsAction="never" />
+
+</menu>

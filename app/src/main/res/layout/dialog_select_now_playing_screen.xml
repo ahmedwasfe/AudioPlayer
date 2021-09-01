@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin16"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/text_now_playing_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Now playing screen"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize18"
+        android:padding="@dimen/margin4"
+        android:layout_margin="@dimen/margin4"/>
+
+    <TextView
+        android:id="@+id/txt_playing_screen1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Playing screen 1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize18"
+        android:padding="@dimen/margin8"
+        android:layout_marginTop="@dimen/margin20"
+        android:layout_marginStart="@dimen/margin16"
+        android:layout_below="@id/text_now_playing_screen"/>
+
+    <TextView
+        android:id="@+id/txt_playing_screen2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Playing screen 2"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize18"
+        android:padding="@dimen/margin8"
+        android:layout_marginTop="@dimen/margin10"
+        android:layout_marginStart="@dimen/margin16"
+        android:layout_below="@id/txt_playing_screen1"/>
+
+</RelativeLayout>

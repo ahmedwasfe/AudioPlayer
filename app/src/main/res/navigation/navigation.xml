@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.oceanforit.audioplayer.ui.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home"/>
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.oceanforit.audioplayer.ui.search.SearchFragment"
+        android:label="@string/search"
+        tools:layout="@layout/fragment_search"/>
+
+    <fragment
+        android:id="@+id/nav_favorite"
+        android:name="com.oceanforit.audioplayer.ui.favorites.FavoritesFragment"
+        android:label="@string/favorites"
+        tools:layout="@layout/fragment_favorites"/>
+
+
+</navigation>

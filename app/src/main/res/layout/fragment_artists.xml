@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin4"
+        app:cardBackgroundColor="@color/colorBlackDark3"
+        app:cardCornerRadius="@dimen/margin30"
+        app:cardElevation="@dimen/margin10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_sort"
+                android:layout_width="@dimen/margin30"
+                android:layout_height="@dimen/margin30"
+                android:src="@drawable/ic_baseline_sort"
+                android:layout_marginStart="@dimen/margin20"
+                android:layout_marginTop="@dimen/margin10"
+                android:layout_alignParentStart="true"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_artists"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin16"
+                android:layout_below="@id/iv_sort"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".ui.albumDetails.AlbumDetailsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:backgroundTint="@color/colorBlackDark2"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool_bar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorBlackDark2"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:titleTextColor="@color/white"/>
+
+    <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:fitsSystemWindows="true"
+        app:contentScrim="#0e0d0e"
+        app:expandedTitleTextAppearance="@android:color/transparent"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:id="@+id/img_album_cover"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/icon_white"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/img_gredient"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/gredient_bg"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:id="@+id/txt_album_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Audio Name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize22"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_marginEnd="@dimen/margin32"
+                android:layout_marginStart="@dimen/margin32"
+                android:gravity="center_horizontal"
+                android:layout_below="@id/img_album_cover"/>
+
+            <TextView
+                android:id="@+id/txt_artist_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artist Name"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textSize18"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_marginTop="@dimen/margin10"
+                android:layout_marginEnd="@dimen/margin40"
+                android:layout_marginStart="@dimen/margin40"
+                android:gravity="center_horizontal"
+                android:layout_below="@id/txt_album_name"/>
+
+        </RelativeLayout>
+
+
+
+    </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/margin16"
+            app:cardBackgroundColor="@color/colorBlackDark3"
+            app:cardCornerRadius="@dimen/margin30"
+            app:cardElevation="@dimen/margin10">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv_sort"
+                    android:layout_width="@dimen/margin30"
+                    android:layout_height="@dimen/margin30"
+                    android:src="@drawable/ic_baseline_sort"
+                    android:layout_marginStart="@dimen/margin20"
+                    android:layout_marginTop="@dimen/margin10"
+                    android:layout_alignParentStart="true"/>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recycler_album_details"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/margin16"
+                    android:layout_below="@id/iv_sort"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

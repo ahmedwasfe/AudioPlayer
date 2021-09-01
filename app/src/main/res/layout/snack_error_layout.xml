@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin20"
+    app:cardCornerRadius="@dimen/margin8"
+    app:cardElevation="@dimen/margin1"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/colorRed"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin20"
+            android:text="text"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tv_click_retry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dlg_retry"
+            android:textColor="@color/white"
+            android:textSize="@dimen/margin16"
+            android:layout_marginLeft="@dimen/margin8"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="false" />
+
+    </RelativeLayout>
+    
+
+
+</androidx.cardview.widget.CardView>

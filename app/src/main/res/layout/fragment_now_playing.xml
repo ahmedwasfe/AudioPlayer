@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorBlackDark3"
+    app:cardCornerRadius="@dimen/margin30"
+    app:cardElevation="@dimen/margin10">
+
+    <RelativeLayout
+        android:id="@+id/relative_now_playing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin10"
+        android:background="@color/colorBlackDark3">
+
+        <ImageView
+            android:id="@+id/iv_cover_playing"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="@dimen/margin5"
+            android:src="@drawable/icon_white"
+            android:layout_centerVertical="true"
+            android:background="@drawable/image_bg"/>
+
+        <TextView
+            android:id="@+id/txt_audio_name_playing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Audio Name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize18"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginStart="@dimen/margin10"
+            android:layout_toEndOf="@id/iv_cover_playing"/>
+
+        <TextView
+            android:id="@+id/txt_artist_name_playing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artist Name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textSize14"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginStart="@dimen/margin10"
+            android:layout_toEndOf="@id/iv_cover_playing"
+            android:layout_below="@id/txt_audio_name_playing"/>
+
+        <ImageView
+            android:id="@+id/iv_next_playing"
+            android:layout_width="@dimen/margin30"
+            android:layout_height="@dimen/margin30"
+            android:src="@drawable/ic_skip_next"
+            android:layout_marginEnd="@dimen/margin10"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_play_pause_playing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play"
+            android:focusable="true"
+            android:clickable="true"
+            app:fabSize="mini"
+            android:layout_marginEnd="@dimen/margin10"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/iv_next_playing"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/drawable/artists_item_bg.xml" value="0.215625" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/drawable/background_dialog.xml" value="0.2123076923076923" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/drawable/bg.xml" value="0.215625" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/drawable/ic_baseline_folder.xml" value="0.215625" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/drawable/ic_bg_select_image.xml" value="0.215625" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/drawable/ic_repeat_off.xml" value="0.215625" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/drawable/ic_repeat_on.xml" value="0.215625" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/drawable/ic_repeat_one.xml" value="0.215625" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/drawable/ic_shuffle_on.xml" value="0.215625" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/drawable/state_of_nav.xml" value="0.215625" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/layout/activity_home.xml" value="0.19947916666666668" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/layout/activity_player.xml" value="0.2505399568034557" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/layout/dialog_about.xml" value="0.22" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/layout/fragment_favorites.xml" value="0.19641025641025642" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/layout/fragment_playlists.xml" value="0.2" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/layout/fragment_search.xml" value="0.22" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/layout/player_ui1.xml" value="0.19947916666666668" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/layout/row_album.xml" value="0.19947916666666668" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/layout/row_artist.xml" value="0.19947916666666668" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/layout/row_audio.xml" value="0.19641025641025642" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/layout/row_folder.xml" value="0.33" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/layout/snack_success_layout.xml" value="0.19947916666666668" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/menu/artists_menu.xml" value="0.17314814814814813" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/menu/more_menu.xml" value="0.19947916666666668" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/menu/navigation_menu.xml" value="0.19947916666666668" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/menu/search_menu.xml" value="0.19641025641025642" />
+        <entry key="..\:/Programming/Android/MyApps/Audio Player/Project/Audio Player/app/src/main/res/menu/sort_memu.xml" value="0.17314814814814813" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

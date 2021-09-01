@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin4"
+        app:cardBackgroundColor="@color/colorBlackDark3"
+        app:cardCornerRadius="@dimen/margin30"
+        app:cardElevation="@dimen/margin10">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.SearchView
+                android:id="@+id/_search_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_bg_search"
+                app:queryBackground="@android:color/transparent"
+                app:iconifiedByDefault="false"
+                app:queryHint="@string/search"
+                android:layout_marginTop="@dimen/margin20"
+                android:layout_marginStart="@dimen/margin10"
+                android:layout_marginEnd="@dimen/margin10"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_search"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/_search_view"
+                android:layout_marginTop="@dimen/margin16" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
